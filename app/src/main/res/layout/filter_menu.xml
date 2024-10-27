@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RadioGroup
+            android:id="@+id/filterBtnGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/lowToHigh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_by_price_low_to_high"
+                android:textStyle="bold"
+                android:value="1"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="10dp"/>
+
+            <RadioButton
+                android:id="@+id/highToLow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sort_by_price_high_to_low"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="10dp"/>
+
+            <RadioButton
+                android:id="@+id/ascendByName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name_a_z"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="10dp"/>
+
+            <RadioButton
+                android:id="@+id/descendByName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name_z_a"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="10dp"/>
+
+        </RadioGroup>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</layout>

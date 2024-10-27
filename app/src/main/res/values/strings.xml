@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Product.list</string>
+    <string name="sort_by_price_high_to_low">Price (High to Low)</string>
+    <string name="sort_by_price_low_to_high">Price (Low to High)</string>
+    <string name="log_ProductData">PRODUCTDATA</string>
+    <string name="filter_button">Filter Button</string>
+    <string name="products_are_being_fetched">Products are being fetched..</string>
+    <string name="name_a_z">Name (A-Z)</string>
+    <string name="name_z_a">Name (Z-A)</string>
+</resources>
